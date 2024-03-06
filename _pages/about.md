@@ -13,6 +13,9 @@ Previously, I was an active member of ITU Vision Lab, under the supervision of P
 
 News
 ======
+- *03/2024*: Our paper "Calibrating Bayesian UNet++ for Sub-seasonal Forecasting" is accepted to Tackling Climate Change with Machine Learning workshop at ICLR2024! 
+<br>
+
 - *08/2023*: I have attended to Climate Change AI Summer School 2023 at Mila, Quebec AI Institue at Montreal, Canada. We worked on using large language models to evaluate and compare sustainability reports of big companies.
 <br>
 
