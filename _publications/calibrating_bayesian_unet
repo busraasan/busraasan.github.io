@@ -3,6 +3,6 @@ title: "Calibrating Bayesian UNet++ Sub-Seasonal Forecasting"
 collection: publications
 permalink: https://arxiv.org/abs/2403.16612
 excerpt: ' Calibration of the neural networks provides a way to ensure our confidence in the predictions. We calibrate a UNet++ based architecture. We show that with a slight trade-off between prediction error and calibration error, it is possible to get more reliable and sharper forecasts.'
-date: 2023-05-11
+date: 2024-05-11
 venue: 'ICLR 2024 Tackling Climate Change with Machine Learning'
 ---
