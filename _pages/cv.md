@@ -11,49 +11,65 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Engineering, Istanbul Technical University, 2023
 
-Work experience
+Research experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2023: Research Intern
+  * Aalto University
+  * Worked on applying Graph Neural Networks for color recommendation and assignment for graphical designs and user interfaces.
+  * Supervisor: Prof. Dr. Antti Oulasvirta
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Mar 2022 - Mar 2024: Undergraduate Researcher
+  * Istanbul Technical University
+  * Working on sub-seasonal forecasting and applying deep learning methods to forecasts.
+  * Regression model calibration, bayesian models
+  * One paper at Environmental Data Science journal
+  * One paper at ICLR 2024 Tackling Climate Change with Machine Learning
+  * Supervisor: Prof. Dr. Gözde Ünal
+ 
+* Winter 2022, Aug 2021: Research Intern
+  * Brain and Signal Research & Analysis Laboratory
+  * Coded (BGSR)[https://github.com/basiralab/BGSR-PY] (Brain Graph Super-Resolution) method
+  * Worked on increasing the accuracy of a graph neural network architecture by applying different training strategies for diverse datasets
+  * Researched and learned contrastive learning strategies
+  * Supervisor: Dr. Islem Rekik
 
-Publications
+Industry experience
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+
+* Aug 2022: Robotics Intern
+  * delivers.ai -- a company dedicated to engineer mobile delivery robots
+  * Developed and deployed a PointCloud filtering and fusion pipeline using PCL library.
+  * Worked with ROS, C++ and depth cameras, conducted tests.
+ 
+* Aug - Sep 2021: Software Engineering Intern
+  * IBM
+  * Coded automated usage reports for CPU, memory and disk using python and pyspark. Dealt with big data.
+ 
+Volunteer experience
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+* May - Oct 2022: Software Team Co-Leader
+  * Software team leader responsible from the development of drive system. 
+  * Responsibilities include: autonomous navigation, controls, localization, mapping.
+
+  * Placed 3rd in European Rover Challenge 2022 🥉
+  * Placed 1st in Presentation Task in ERC 2022🥇
+
+* Jul - May 2022: Software Team Member
+  * Built an autonomous Mars rover for University Rover Challenge in the US and European Rover Challenge in Poland with a different design and software architecture each year.
+  * Working on autonomous navigation of rover. Using sensors such as GPS, IMU, LiDAR, depth cameras on the robot. 
+  * Testing navigation algorithms on simulation in gazebo environment created for the rover.
+  * Customizing navigation stacks such as robot_navigation and ROS navigation stack and testing on the rover.
+  * Designing and writing the state machine for autonomous navigation tasks.
+  * Worked on estimating the world coordinates of small objects using depth cameras and object detection methods such as YOLO with ROS. Worked with NVIDIA Jetson AGX.
+  * Managing GitHub of the organization.
+  * Worked on PID tuning.
+ 
+  * Placed 2nd at European Rover Challenge in Poland among 58 teams 🥈
+
+
+
+
+
