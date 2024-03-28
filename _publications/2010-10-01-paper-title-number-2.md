@@ -1,15 +1,8 @@
 ---
-title: "Paper Title Number 2"
+title: "Climate model-driven seasonal forecasting approach with deep learning"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3046D1C9903ABF0AB49DCEA473DB5E32/S2634460223000249a.pdf/climate-model-driven-seasonal-forecasting-approach-with-deep-learning.pdf
+excerpt: 'A UNet++ architecture with circular convolutions is trained using spatiotemporal climate data for sub-seasonal temperature forecasting. The effect of ancillary climate variables have been investigated. The model predicts significantly better than the mean CMIP6 ensemble between 2016 and 2021. Both models predict the summer months more accurately than the winter months.'
+date: 2023-07-26
+venue: 'Environmental Data Sciences 2023'
 ---
-This paper is about the number 2. The number 3 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
-
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
