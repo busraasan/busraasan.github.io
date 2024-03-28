@@ -1,5 +1,5 @@
 ---
-title: "Suggesting Colors for UI Designs with Graph Neural Network"
+title: "Suggesting Colors for UI Designs with Graph Neural Networks"
 collection: publications
 permalink: "https://busraasan.github.io/publications/"
 excerpt: 'We propose a novel content-aware graph-based representation that can infer
@@ -8,7 +8,7 @@ capturing the types of elements (e.g., text, background, decoration),
 the associated colors, and the relationships between UI elements.
 This allows dynamically suggesting color palette selection in re-
 sponse to changes in color preferences and assigning updated colors
-for UI elements by employing graph neural networks (GNNs)'
+for UI elements by employing graph neural networks (GNNs).'
 date: 2024-03-28
 venue: 'CHI 2024 Computational Methodologies for Understanding, Automating, and Evaluating User Interfaces'
 ---
