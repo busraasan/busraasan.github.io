@@ -6,6 +6,6 @@ One downside of this approach roots from the fact that model always gives non-ze
 By looking at the figure, you might say here that if I pick the most probable answer then I would minimize the hallucination probability. Unfortunately, this might not always be the case. If you use an out-of-distribution prompt or if the training dataset has inaccuracies or out-dated information, then the model might inherently produce factually wrong answers. This work also asserts that even if you use a factually correct training set with perfect training data, the hallucination problem will stay [[1]](https://arxiv.org/pdf/2311.14648.pdf).
 
 <figure>
-    <img style="float: right;" src="../_posts/images/long_tail.png">
+    <img style="float: right;" src="../_posts/images/long_tail.jpeg">
     <figcaption>Figure 2: Long tail distribution we obtain when we use the exact probability distribution constructed by the language model.</figcaption>
 </figure>
