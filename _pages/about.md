@@ -7,13 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a recent Computer Engineering graduate from Istanbul Technical University. I am currently working as a Machine Learning Engineer at Novus Technologies Inc. I work on NLP and Large Language Models with a focus on underrepresented languages. 
+I am a first year Master's Student at University of Tübingen. I have graduated from Istanbul Technical University with Bachelor's in Computer Engineering. I worked as a Machine Learning Engineer at Novus Technologies Inc. with a focus on NLP and Large Language Models with a focus on underrepresented languages. 
 
 Previously, I was an active member of ITU Vision Lab, under the supervision of Prof. Dr. Gözde Ünal. I worked on Computer Vision and its applications on climate sciences. I developed deep learning models for seasonal forecasting. I have also completed a research internship at Aalto University, Computational Behavior Lab with Prof. Dr. Antti Oulasvirta with a focus on color recommendation systems using Graph Neural Networks.
 
 News
 ======
 - *03/2024*: Our paper [Calibrating Bayesian UNet++ for Sub-seasonal Forecasting](https://arxiv.org/abs/2403.16612) is accepted to Tackling Climate Change with Machine Learning workshop at ICLR2024! 
+<br>
+
+- *03/2024*: Our paper [Suggesting Colors for UI Designs with Graph Neural Networks](https://drive.google.com/file/d/1nnQdvKs-98n_Y0wwe_nEMElBOoAlMJ9K/view) is accepted to Computational UI workshop at CHI2024! 
 <br>
 
 - *08/2023*: I have attended to Climate Change AI Summer School 2023 at Mila, Quebec AI Institue at Montreal, Canada. We worked on using large language models to evaluate and compare sustainability reports of big companies.
