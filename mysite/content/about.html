@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Your Name</title>
+  <meta name="description" content="Reach out" />
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    :root { --bg:#fff; --text:#0f172a; --muted:#475569; --link:#0ea5e9; --card:#f8fafc; --ring:#e2e8f0; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0b1020; --text:#e5e7eb; --muted:#94a3b8; --link:#38bdf8; --card:#0f172a; --ring:#1f2937; }
+    }
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+    a{color:var(--link);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:780px;margin:0 auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid var(--ring);padding-bottom:10px;margin-bottom:24px}
+    nav a{margin-left:14px;padding:6px 10px;border-radius:10px}
+    nav a:hover,nav a:focus-visible{background:var(--card);outline:2px solid transparent}
+    h1,h2{line-height:1.2;margin:18px 0 8px}
+    .prose p{margin:0 0 12px}
+    .muted{color:var(--muted)}
+    .split{display:grid;grid-template-columns:1fr 200px;gap:24px;align-items:start}
+    @media (max-width:740px){.split{grid-template-columns:1fr}}
+    .card{background:var(--card);border:1px solid var(--ring);border-radius:14px;padding:16px}
+    .avatar{width:100%;border-radius:12px;border:1px solid var(--ring);background:#fff;object-fit:cover}
+    ul{padding-left:18px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a href="/"><strong>Your Name</strong></a>
+      <nav aria-label="Primary">
+        <a href="/about.html" aria-current="page">About</a>
+        <a href="/posts.html">Posts</a>
+        <a href="https://scholar.google.com/" rel="noopener">Publications</a>
+      </nav>
+    </header>
+
+    <main class="split">
+      <section class="prose">
+        <h1>About</h1>
+        <p>Write a brief academic/work history here. Mention where/what you studied and the key roles you’ve held, with one or two links:</p>
+        <p>“I earned my bachelor’s at <a href="#">University</a> in YEAR. After that I worked on X at <a href="#">Company</a>. In YEAR I did a master’s focusing on Y. I got into <a href="#">topic of interest</a> and later worked with <a href="#">org/project</a>.”</p>
+
+        <p>Then a quick “why I care” paragraph about your current research direction and goals.</p>
+
+        <h2 id="now">Now <span class="muted" style="font-size:0.9em">(last updated: <time id="updated">Mar 2025</time>)</span></h2>
+        <p>What you’re doing now (location, program, affiliation, current project).</p>
+
+        <h2 id="favorites">My favorite things</h2>
+        <ul>
+          <li><a href="#fav-papers">My favorite papers</a></li>
+          <li><a href="#fav-quotes">My favorite quotes</a></li>
+          <li><a href="#fav-records">My favorite records</a></li>
+        </ul>
+
+        <h3 id="fav-papers">My favorite papers</h3>
+        <ul>
+          <li><a href="#">Paper title</a> — brief note on why it matters.</li>
+          <li><a href="#">Another paper</a> — a line on the key idea.</li>
+        </ul>
+
+        <h3 id="fav-quotes">My favorite quotes</h3>
+        <ul>
+          <li>“Short quote here.” — Attribution</li>
+        </ul>
+
+        <h3 id="fav-records">My favorite records</h3>
+        <ul>
+          <li><em>Album — Artist</em> (year)</li>
+        </ul>
+      </section>
+
+      <aside>
+        <div class="card">
+          <img class="avatar" src="/about-side.jpg" alt="A small image you like (artwork, doodle, etc.)">
+          <div style="margin-top:10px">
+            <div><strong>Your Name</strong></div>
+            <div><a href="mailto:you@example.com">you@example.com</a></div>
+            <div><a href="https://x.com/yourhandle" rel="me noopener">@yourhandle</a></div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer style="margin-top:40px;border-top:1px solid var(--ring);padding-top:14px" class="muted">
+      © <span id="y"></span> Your Name.
+    </footer>
+  </div>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+    // Optional: set your own “last updated” string here
+    // document.getElementById('updated').textContent = 'Aug 2025';
+  </script>
+</body>
+</html>

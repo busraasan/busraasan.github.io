@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Posts — Your Name</title>
+  <meta name="description" content="Posts and papers by Your Name" />
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    :root { --bg:#fff; --text:#0f172a; --muted:#475569; --link:#0ea5e9; --card:#f8fafc; --ring:#e2e8f0; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0b1020; --text:#e5e7eb; --muted:#94a3b8; --link:#38bdf8; --card:#0f172a; --ring:#1f2937; }
+    }
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+    a{color:var(--link);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:780px;margin:0 auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid var(--ring);padding-bottom:10px;margin-bottom:24px}
+    nav a{margin-left:14px;padding:6px 10px;border-radius:10px}
+    nav a:hover,nav a:focus-visible{background:var(--card);outline:2px solid transparent}
+    h1,h2{line-height:1.2;margin:18px 0 8px}
+    .muted{color:var(--muted)}
+    .list{display:grid;gap:6px}
+    .item time{white-space:nowrap;margin-right:10px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a href="/"><strong>Your Name</strong></a>
+      <nav aria-label="Primary">
+        <a href="/about.html">About</a>
+        <a href="/posts.html" aria-current="page">Posts</a>
+        <a href="https://scholar.google.com/" rel="noopener">Publications</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Posts</h1>
+
+      <h2>Papers</h2>
+      <div class="list" id="papers">
+        <div class="item">
+          <time datetime="2024-06-17">Jun 17, 2024</time>
+          <a href="https://arxiv.org/abs/xxxx.xxxxx" rel="noopener">Your paper title on arXiv</a>
+        </div>
+      </div>
+
+      <h2>Blog posts</h2>
+      <div class="list" id="blog">
+        <div class="item">
+          <time datetime="2025-03-22">Mar 22, 2025</time>
+          <a href="/posts/your-post.html">Do models say what they learn?</a>
+        </div>
+        <div class="item">
+          <time datetime="2025-01-13">Jan 13, 2025</time>
+          <a href="/posts/another-post.html">Finding features causally upstream of refusal</a>
+        </div>
+      </div>
+    </main>
+
+    <footer style="margin-top:40px;border-top:1px solid var(--ring);padding-top:14px" class="muted">
+      © <span id="y"></span> Your Name.
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

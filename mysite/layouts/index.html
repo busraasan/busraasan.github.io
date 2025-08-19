@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name</title>
+  <meta name="description" content="Researcher studying X. Get in touch via email." />
+  <meta property="og:title" content="Your Name" />
+  <meta property="og:description" content="Researcher studying X." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com" />
+  <meta property="og:image" content="https://yourdomain.com/og-image.jpg" />
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    
+
+  :root {
+  --bg: #f4ecd8;       /* papyrus parchment */
+  --text: #2b2b2b;     /* dark ink */
+  --muted: #5c4a3a;    /* softer brown */
+  --link: #8b5e3c;     /* warm brown accent */
+  --card: #faf3e0;     /* lighter parchment for cards */
+  --ring: #e2d9c7;     /* borders */
+  --font-body: "Georgia", "Garamond", "Palatino Linotype", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #2a211c;     /* deep dark brown */
+      --text: #e9e4dc;
+      --muted: #b5a99b;
+      --link: #d4a373;   /* golden-brown */
+      --card: #3a2f28;
+      --ring: #453a34;
+    }
+  }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px solid var(--ring);
+      padding-bottom: 10px;
+      margin-bottom: 24px;
+    }
+    nav a {
+      margin-left: 14px;
+      padding: 6px 10px;
+      border-radius: 10px;
+    }
+    nav a:focus-visible, nav a:hover {
+      background: var(--card);
+      outline: 2px solid transparent;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 24px;
+    }
+    .hero h1 { font-size: 28px; line-height: 1.2; margin: 0 0 6px; }
+    .hero p { margin: 0 0 8px; color: var(--muted); }
+    .card {
+      background: none;
+      border: none;
+      padding: 0;
+      margin-top: 1em;
+    }
+    .avatar {
+      width: 120px; height: 120px;
+      border-radius: 50%;
+      border: 1px solid var(--ring);
+      object-fit: cover;
+      background: #fff;
+    }
+    ul.links { list-style: none; padding: 0; margin: 8px 0 0; display:flex; gap:14px; flex-wrap: wrap; }
+    footer {
+      margin-top: 40px;
+      border-top: 1px solid var(--ring);
+      padding-top: 14px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (max-width: 640px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero .right { order: -1; justify-self: start; }
+    }
+    /* Subtle entrance animation */
+    [data-fade] { opacity: 0; transform: translateY(6px); animation: fadeIn .5s ease forwards; }
+    [data-fade].d2 { animation-delay: .05s; }
+    [data-fade].d3 { animation-delay: .1s; }
+    @keyframes fadeIn { to { opacity:1; transform:none; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a href="/" aria-label="Home"><strong>Home</strong></a>
+      <nav aria-label="Primary">
+        <a href="/about.html">About</a>
+        <a href="/posts.html">Posts</a>
+        <a href="https://scholar.google.com/" rel="noopener">Publications</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <section class="left" data-fade>
+        <h1>Hi, I’m Büşra</h1>
+        <p>I’m a Master student at University of Tübingen working on using LMs as model organisms for brains to research language understanding. My current focus is on AI interpretability and representational equivalence between the brain and AI models.</p>
+        <div class="card" aria-label="Contact info">
+          <div><strong>Reach out</strong></div>
+          <div><a href="mailto:busraasan2@gmail.com">busraasan2@gmail.com</a></div>
+          <ul class="links">
+            <li><a href="https://x.com/busraasannn" rel="me noopener">X</a></li>
+            <li><a href="https://github.com/busraasan" rel="me noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/busraasan/" rel="me noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <aside class="right" data-fade class="d2">
+        <img class="avatar" src="me.jpeg" alt="Doodle or headshot of Your Name" />
+      </aside>
+    </main>
+
+    <section style="margin-top:28px" data-fade class="d3">
+      <h2 style="margin:0 0 8px">Latest</h2>
+      <ul>
+        <li>Research intern @ BrAIN group, MPI-SWS, August 2025</li>
+        <li>
+          <a href="https://arxiv.org/pdf/2403.16612" target="_blank" rel="noopener">
+            Calibrating Bayesian UNet++ for Sub-Seasonal Forecasting
+          </a>
+          — ICLR 2024 Tackling Climate Change Workshop, April 2024
+        </li>
+        <li>
+        <a href="https://drive.google.com/file/d/1nnQdvKs-98n_Y0wwe_nEMElBOoAlMJ9K/view" target="_blank" rel="noopener">
+          Suggesting Colors for UI Designs with Graph Neural Networks
+        </a>
+        — CHI 2024 Computational UI Workshop, March 2024
+      </li>
+        <li>Research intern @ Computational Behaviour group, Aalto University, June-September 2023</li>
+        <li>
+          <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3046D1C9903ABF0AB49DCEA473DB5E32/S2634460223000249a.pdf/climate-model-driven-seasonal-forecasting-approach-with-deep-learning.pdf" target="_blank" rel="noopener">
+            Climate model-driven seasonal forecasting approach with deep learning
+          </a>
+          — Environmental Data Science 2 (e29), July 2023
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Your Name. Built with plain HTML & CSS.
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
